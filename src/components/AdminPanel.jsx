@@ -39,8 +39,7 @@ const AdminPanel = () => {
         />
         <select name="category" value={formData.category} onChange={handleChange}>
           <option value="ai">AI</option>
-          <option value="electronic">Electronic</option>
-          <option value="robotic">Robotic</option>
+          <option value="electronic">Electronic&Robotic</option>
           <option value="programming">Programming</option>
         </select>
         <input
