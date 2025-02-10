@@ -1,3 +1,5 @@
+import '../App.css'; // Create this file for AdminPanel styles
+
 import ProjectCard from './ProjectCard';
 
 const ProjectList = ({ projects }) => {

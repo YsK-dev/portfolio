@@ -1,3 +1,4 @@
+import '../App.css'; // Create this file for AdminPanel styles
 const ProjectCard = ({ project }) => {
     return (
       <div className="project-card">
